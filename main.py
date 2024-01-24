@@ -28,3 +28,5 @@ while True:
         messagem = random.choice(display_messages)
         print(messagem)
         print()
+    elif (resposta == 'N' or resposta == 'n'):
+        exit()
